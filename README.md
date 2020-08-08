@@ -3,6 +3,8 @@
 #### Modules used: tkinter, PIL, threading
 I basically just decided to learn how to create a GUI using python on my winter break. It took me a little while, but I got the hang of it I think. I used tkinter, threading, and PIL modules in this program. I coded this using Python 3,the Atom text editor, and lots of Google. This is the first time that I have pushed code onto GitHub, and hopefully as I improve, I will publish more.
 
+![calculator](https://user-images.githubusercontent.com/19376473/89699237-a976a900-d8f3-11ea-91a1-61fd3d3c8857.png)
+
 ## How to Use
 ### From Installer Executable
 To run the program using the installer executable, first download the executable from the [latest release](https://github.com/TeenageMutantCoder/Calculator-with-GUI/releases/latest). Then, run the executable and proceed with installation using the installation wizard.
