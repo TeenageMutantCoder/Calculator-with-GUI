@@ -2,10 +2,13 @@
 
 # Stevon Wright December 2019 GUI Calculator using tkinter
 import tkinter as tk             # GUI library
-from Libraries import NewWindow  # Necessary method: add_widgets
+try:
+    from Libraries import NewWindow  # Necessary method: add_widgets
+except ImportError:
+    from .Libraries import NewWindow
 
 
-class Main(tk.Tk, NewWindow.NewWindow):
+class App(tk.Tk, NewWindow.NewWindow):
     ''' Main application window (the Root window) '''
 
     def __init__(self):

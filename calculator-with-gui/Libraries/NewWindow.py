@@ -1,4 +1,5 @@
 import tkinter as tk      # GUI Library
+import os
 from PIL import ImageTk   # Allows for window icon
 from PIL import Image     # Allows for window icon
 from .Menus import Menu   # Program menu
@@ -27,7 +28,7 @@ class NewWindow(tk.Toplevel):
         self.minsize(200, 200)
 
         # Add program icon in top left corner
-        image_path = r"Libraries/Assets/calculator2.png"
+        image_path = os.path.relpath(os.path.join("calculator-with-gui", "Libraries", "Assets", "calculator2.png"))
         image = ImageTk.PhotoImage(Image.open(image_path))
         self.iconphoto(False, image)
 
